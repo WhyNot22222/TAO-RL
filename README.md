@@ -13,7 +13,7 @@ Integrating external tools into Large Language Models (LLMs) substantially impro
 We present **TAO-RL**, a unified framework that couples **tool-aware trajectory filtering** with **entropy-guided exploration** for efficient policy optimization. At the data level, TAO-RL filters trajectories to prevent degenerate advantage estimates. At the algorithmic level, we introduce an entropy-guided bonus that reshapes the advantage function at post-tool-call tokens, encouraging the policy to explore more diverse reasoning paths and robust tool use.
 
 <p align="center">
-    <img src="assets/framework.png" width="100%"> <br>
+    <img src="assets/framework_00.png" width="100%"> <br>
     <em>Overview of the TAO-RL framework.</em>
 </p>
 
