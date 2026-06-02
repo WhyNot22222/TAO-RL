@@ -76,7 +76,7 @@ Update the paths (e.g., `MODEL_PATH`, `DATA_PATH`) inside `scripts/example_train
 bash scripts/example_train.sh
 ```
 
-*Note: Key hyperparameters such as `--entropy_coeff` and `--use_aepo_shaping` can be directly configured in this script.*
+*Note: Key hyperparameters such as `--entropy_coeff` can be directly configured in this script.*
 
 ### **Step 3: Merge Model Checkpoints**
 
@@ -117,7 +117,7 @@ If you find our work or this code useful, please cite our paper:
 @article{cao202Xtoolaware,
   title={Tool-Aware Optimization with Entropy Guidance for Efficient Agentic Reinforcement Learning},
   author={Cao, Hongye and Yan, Nuo and Deng, Haoyuan and Wang, Ziwei and Yang, Tianpei and Huo, Jing and Zhang, Yuyao and Gao, Yang},
-  journal={Under Review (IEEE TPAMI)},
-  year={202X}
+  journal={Under Review},
+  year={2026}
 }
 ```  
