@@ -2,9 +2,7 @@
 
 This repository contains the official training and evaluation code for **TAO-RL**, a tool-aware reinforcement learning framework designed to improve LLMs' agentic reasoning and tool-use capabilities.
 
-## **💥 News**
 
-- Coming soon.
 
 ## **👀 About TAO-RL**
 
