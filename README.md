@@ -114,10 +114,13 @@ This repository is built upon the [VERL](https://github.com/volcengine/verl) rei
 If you find our work or this code useful, please cite our paper:
 
 ```bibtex
-@article{cao202Xtoolaware,
-  title={Tool-Aware Optimization with Entropy Guidance for Efficient Agentic Reinforcement Learning},
-  author={Cao, Hongye and Yan, Nuo and Deng, Haoyuan and Wang, Ziwei and Yang, Tianpei and Huo, Jing and Zhang, Yuyao and Gao, Yang},
-  journal={Under Review},
-  year={2026}
+@misc{cao2026toolawareoptimizationentropyguidance,
+      title={Tool-Aware Optimization with Entropy Guidance for Efficient Agentic Reinforcement Learning}, 
+      author={Hongye Cao and Nuo Yan and Haoyuan Deng and Ziwei Wang and Tianpei Yang and Jing Huo and Yuyao Zhang and Yang Gao},
+      year={2026},
+      eprint={2606.03762},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2606.03762}, 
 }
 ```  
