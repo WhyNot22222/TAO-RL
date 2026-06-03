@@ -1,6 +1,6 @@
 # **TAO-RL: Tool-Aware Optimization with Entropy Guidance for Efficient Agentic Reinforcement Learning**
 
-This repository contains the official training and evaluation code for **TAO-RL**, an exploration-aware reinforcement learning framework designed to improve LLMs' agentic reasoning and tool-use capabilities.
+This repository contains the official training and evaluation code for **TAO-RL**, a tool-aware reinforcement learning framework designed to improve LLMs' agentic reasoning and tool-use capabilities.
 
 ## **💥 News**
 
@@ -8,7 +8,7 @@ This repository contains the official training and evaluation code for **TAO-RL*
 
 ## **👀 About TAO-RL**
 
-Integrating external tools into Large Language Models (LLMs) substantially improves complex reasoning but often destabilizes RL training due to input distribution shifts and entropy collapse.
+Integrating external tools into Large Language Models substantially improves complex reasoning but often destabilizes RL training due to input distribution shifts and entropy collapse.
 
 We present **TAO-RL**, a unified framework that couples **tool-aware trajectory filtering** with **entropy-guided exploration** for efficient policy optimization. At the data level, TAO-RL filters trajectories to prevent degenerate advantage estimates. At the algorithmic level, we introduce an entropy-guided bonus that reshapes the advantage function at post-tool-call tokens, encouraging the policy to explore more diverse reasoning paths and robust tool use.
 
