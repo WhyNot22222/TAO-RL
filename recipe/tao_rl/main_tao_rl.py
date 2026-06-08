@@ -171,7 +171,7 @@ class TaskRunner:
 
         reward_manager_name = config.reward_model.get("reward_manager", "naive")
         if reward_manager_name == "math":
-from recipe.tao_rl.workers.reward_manager import MathRewardManager
+            from recipe.tao_rl.workers.reward_manager import MathRewardManager
             from recipe.tao_rl.workers.reward_manager import MathRewardExecManager
             from recipe.tao_rl.workers.reward_manager import CodeRewardManager
 
