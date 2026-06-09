@@ -1,4 +1,5 @@
 # Default values
+CONFIG_NAME=tao_rl_trainer
 MAX_TURNS=5
 TRAIN_BATCH_SIZE=4
 VAL_SAMPLE_SIZE=4
